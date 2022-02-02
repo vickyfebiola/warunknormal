@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.product{
+    width: 100%;
+    height: 100vh;
+    background-color: #f1faee;
+    font-family: 'Open Sans','sans-serif';
+    border: 5px solid #f1faee;
+    overflow: hidden;
+}
+
+.product h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    color: #2F3234;
+}
+
+.cart-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1faee;
+    margin-top: 4rem;
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    border: 1px solid #5E5E5E;
+    padding: 20px;
+}
+
+.cart img {
+    width: 100%;
+    height: 280px;
+    border-radius: 50%;
+}
+
+.cart p {
+    font-size: 18px;
+    color: #212529;
+    margin-top: 0.5rem;
+}
+
+.cart h2 {
+    margin-top: 1rem;
+    font-size: 20px;
+    line-height: 20px;
+    color: #212529;
+}
+
+.show-button{
+    width: 100%;
+    margin-top: 2.4rem;
+    padding: 14px 35px;
+    cursor: pointer;
+    background-color: #212529;
+    text-transform: uppercase;
+    color: #f1faee;
+    border: none;
+    border-radius: 2px;
+}

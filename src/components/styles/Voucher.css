@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.voucher{
+    width: 100%;
+    height: 80vh;
+    font-family: 'Open Sans','sans-serif';
+    background-color: #212529;
+    overflow: hidden;
+    border: 5px solid #f1faee;
+}
+
+form{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f1faee;
+}
+
+form h1{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+form p{
+    padding-bottom: 20px;
+}
+
+form label{
+    color: #f1faee;
+    font-size: 18px;
+    margin: 10px;
+    text-align: left;
+}
+
+form input{
+    width: 40%;
+    padding: 20px;
+    color: #212529;
+    font-size: 16px;
+}
+
+form button{
+    padding: 1rem 4rem;
+    margin-top: 1rem;
+    background-color: #f1faee;
+    color: #212529;
+    border: 2px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: 'Open Sans', 'sans-serif';
+    text-transform: uppercase;
+}
